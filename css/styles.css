@@ -1,0 +1,98 @@
+* {
+  /*outline: 1px solid red;*/
+}
+
+.container {
+  line-height: 1.5;
+  margin: 0 4vw;
+  border: 1px solid black;
+  font-size: 1.25em;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: grid;
+  gap: 3em;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header-leva-strana header-prava-strana";
+}
+
+.header-leva-strana {
+  grid-area: header-leva-strana;
+}
+
+.header-prava-strana {
+  grid-area: header-prava-strana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-prava-strana .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.nav-logo {
+  width: 500px;
+  height: auto;
+  margin: 2em;
+  /* fígl na logo, nejlepší by bylo udělat z něho svg*/
+  filter: invert(1) brightness(0) saturate(100%) hue-rotate(180deg);
+}
+
+/*POPIS POD NAVIGACI*/
+
+.popis {
+  border: 2px solid black;
+}
+
+.popis .popis-text {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.popis .popis-text .popis-text-leva-strana {
+  flex: 1;
+}
+
+.popis .popis-text .popis-text-prava-strana {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nadpis-h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.nadpis-h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*CENIK*/
+
+.cenik {
+  border: 2px solid black;
+}
+
+.nadpis-barber {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline 1px solid black;
+}
+
+.cenik .cenik-barber {
+  width: 100%;
+}
+
+.cenik .cenik-barber tr {
+  border-bottom: 2px solid black;
+}
