@@ -3,6 +3,16 @@
   margin: 0 4vw;
   font-size: 1.25em;
   scroll-behavior: smooth;
+  background-color: rgba(254, 249, 225, 1);
+  background-image: url("../bg-img/barbershop-seamless-pattern_7450-454.avif");
+  font-family: "Montserrat", serif;
+}
+
+.bg{
+    background-color: rgba(229, 208, 172, 0.99);
+    padding: 4vw;
+    border-radius: 2em;
+    margin: 2em 0;
 }
 
 .header {
@@ -29,6 +39,21 @@
   justify-content: center;
   align-items: center;
   gap: 5em;
+  font-family: "Playfair Display", serif;
+}
+
+.header-prava-strana .nav li a{
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+  font-weight: bold;
+  transition: color 0.75s ease, text-shadow 1s ease;
+
+}
+
+.header-prava-strana .nav li a:hover{
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 .nav-logo {
@@ -66,11 +91,13 @@ section,
 .nadpis-h1 {
   font-size: 2.5em;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 
 .nadpis-h2 {
   font-size: 1.5em;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 
 /*CENIK*/
@@ -87,7 +114,7 @@ section,
 .nadpis-kontakt {
   font-size: 2em;
   font-weight: bold;
-  text-decoration: underline 1px dotted black;
+  font-family: "Playfair Display", serif;
 }
 
 .cenik .cenik-barber,
@@ -111,12 +138,14 @@ section,
 .cenik .cenik-damske-kadernictvi tr td:first-child {
   width: 75%;
   text-align: left;
+  padding: 1em;
 }
 
 .cenik .cenik-barber tr td:nth-child(2),
 .cenik .cenik-damske-kadernictvi tr td:nth-child(2) {
   width: 25%;
   text-align: center;
+  padding: 1em;
 }
 
 .cenik .cenik-barber tr,
@@ -143,6 +172,7 @@ section,
 .nadpis-mensi {
   font-size: 1.5em;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 
 .mapa {

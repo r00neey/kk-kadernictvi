@@ -6,182 +6,208 @@
     <title>K&K Kadeřnictví</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!--FONTY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTY-->
   </head>
 
   <body class="container">
-    <header class="header">
-      <img
-        src="pics/logo.png"
-        alt="K&K kadeřnictví logo"
-        class="nav-logo"
-        class="header-leva-strana"
-      />
-      <nav class="header-prava-strana">
-        <ul class="nav">
-          <li><a href="#barber">BARBER</a></li>
-          <li><a href="#damske-kadernictvi">DÁMSKÉ KADEŘNICTVÍ</a></li>
-          <li><a href="#kontakt">KONTAKT</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="popis">
-        <h1 class="nadpis-h1">HAIR STUDIO A BARBER SALON K&K</h1>
-        <h2 class="nadpis-h2">
-          Specializujeme se na dámské i pánské střihy a úpravu vousů.
-        </h2>
-        <div class="popis-text">
-          <div class="popis-text-leva-strana">
-            <p>
-              V příjemném prostředí našeho salonu používáme nejmodernější
-              techniky a kvalitní produkty, abychom vám pomohli dosáhnout
-              vysněného vzhledu.
-            </p>
-            <p>
-              Ať už toužíte po kompletní proměně, nebo pravidelné údržbě účesu,
-              v K&K se postaráme o to, abyste od nás odcházeli s úsměvem a
-              perfektním střihem.
-            </p>
-            <p>
-              Důraz klademe na individuální přístup a pečlivé naslouchání vašim
-              přáním.
-            </p>
-          </div>
-          <div class="popis-text-prava-strana">
-            <img
-              src="https://placehold.co/400x400"
-              alt="pansky-strih"
-              class="popisek-img"
-            />
-          </div>
-        </div>
-      </section>
-      <section class="cenik">
-        <!--BARBER-->
-        <h2 class="nadpis-barber" id="barber">BARBER</h2>
-        <table class="cenik-barber">
-          <tr>
-            <th>Služba</th>
-            <th>Cena</th>
-          </tr>
-          <tr>
-            <td>
-              PÁNSKÝ STŘIH <br />
-              (mytí, střih, zaholení kontur břitvou, vytrhnutí chloupků
-              depilačním voskem (uši, nos), vysušení, styling)
-            </td>
-            <td>250-350 Kč</td>
-          </tr>
-          <tr>
-            <td>
-              ÚPRAVA VOUSŮ STROJKEM <br />(úprava vousů strojkem, zaholení
-              kontur shaverem/břitvou, vytrhnutí chloupků depilačním voskem
-              (uši, nos))
-            </td>
-            <td>250 Kč</td>
-          </tr>
-          <tr>
-            <td>
-              HOLENÍ BŘITVOU (HOT TOWEL) <br />(tradiční holení břitvou za
-              použití štětky a holícího mýdla, napaření horkým ručníkem,
-              ošetření pokožky před a po holení, vytrhnutí chloupků depilačním
-              voskem (uši, nos))
-            </td>
-            <td>350 Kč</td>
-          </tr>
-          <tr>
-            <td>
-              DĚTSKÉ STŘÍHÁNÍ <br />(nevztahuje se na stínování, takzvaný fade)
-            </td>
-            <td>200 Kč</td>
-          </tr>
-          <tr>
-            <td>PÁNSKÝ STŘIH A ÚPRAVA VOUSŮ</td>
-            <td>500 Kč</td>
-          </tr>
-          <tr>
-            <td>PÁNSKÝ STŘIH A HOLENÍ BŘITVOU</td>
-            <td>600 Kč</td>
-          </tr>
-        </table>
-        <a href="https://k-k.reservio.com/" target="_blank">
-          REZERVOVAT TERMÍN
-        </a>
-        <!--DÁMSKÉ KADEŘNICTVÍ-->
-        <h2 class="nadpis-damske-kadernictvi" id="damske-kadernictvi">
-          DÁMSKÉ KADEŘNICTVÍ
-        </h2>
-        <table class="cenik-damske-kadernictvi">
-          <tr>
-            <th>Služba</th>
-            <th>Cena</th>
-          </tr>
-          <tr>
-            <td>STŘIH1</td>
-            <td>300 Kč</td>
-          </tr>
-          <tr>
-            <td>STŘIH3</td>
-            <td>200 Kč</td>
-          </tr>
-          <tr>
-            <td>BARVENÍ VLASŮ</td>
-            <td>450 Kč</td>
-          </tr>
-        </table>
-        <a href="#">ZAVOLEJTE NÁM</a>
-      </section>
-    </main>
-    <footer class="footer" id="kontakt">
-      <div class="footer-leva-cast">
-        <h2 class="nadpis-kontakt">Máte nějaké dotazy? Ozvěte se nám.</h2>
-        <h2 class="nadpis-mensi">BARBER</h2>
-        <div class="kontakt-icons-flex">
-          <a href="#">
-            <div class="icons-flexbox">
+    <div class="bg">
+      <header class="header">
+        <img
+          src="pics/logo.png"
+          alt="K&K kadeřnictví logo"
+          class="nav-logo"
+          class="header-leva-strana"
+        />
+        <nav class="header-prava-strana">
+          <ul class="nav">
+            <li><a href="#barber">BARBER</a></li>
+            <li><a href="#damske-kadernictvi">DÁMSKÉ KADEŘNICTVÍ</a></li>
+            <li><a href="#kontakt">KONTAKT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="popis">
+          <h1 class="nadpis-h1">HAIR STUDIO A BARBER SALON K&K</h1>
+          <h2 class="nadpis-h2">
+            Specializujeme se na dámské i pánské střihy a úpravu vousů.
+          </h2>
+          <div class="popis-text">
+            <div class="popis-text-leva-strana">
+              <p>
+                V příjemném prostředí našeho salonu používáme nejmodernější
+                techniky a kvalitní produkty, abychom vám pomohli dosáhnout
+                vysněného vzhledu.
+              </p>
+              <p>
+                Ať už toužíte po kompletní proměně, nebo pravidelné údržbě
+                účesu, v K&K se postaráme o to, abyste od nás odcházeli s
+                úsměvem a perfektním střihem.
+              </p>
+              <p>
+                Důraz klademe na individuální přístup a pečlivé naslouchání
+                vašim přáním.
+              </p>
+            </div>
+            <div class="popis-text-prava-strana">
               <img
-                src="icons/instagram.png"
-                alt="logo-ig"
-                class="icon"
-              />@kamil-vala
+                src="https://placehold.co/400x400"
+                alt="pansky-strih"
+                class="popisek-img"
+              />
             </div>
+          </div>
+        </section>
+        <section class="cenik">
+          <!--BARBER-->
+          <h2 class="nadpis-barber" id="barber">BARBER</h2>
+          <table class="cenik-barber">
+            <tr>
+              <th>Služba</th>
+              <th>Cena</th>
+            </tr>
+            <tr>
+              <td>
+                PÁNSKÝ STŘIH <br />
+                <!--
+                (mytí, střih, zaholení kontur břitvou, vytrhnutí chloupků
+                depilačním voskem (uši, nos), vysušení, styling)-->
+              </td>
+              <td>250-350 Kč</td>
+            </tr>
+            <tr>
+              <td>
+                ÚPRAVA VOUSŮ STROJKEM <br /><!--(úprava vousů strojkem, zaholení
+                kontur shaverem/břitvou, vytrhnutí chloupků depilačním voskem
+                (uši, nos))-->
+              </td>
+              <td>250 Kč</td>
+            </tr>
+            <tr>
+              <td>
+                HOLENÍ BŘITVOU (hot towel) <br /><!--(tradiční holení břitvou za
+                použití štětky a holícího mýdla, napaření horkým ručníkem,
+                ošetření pokožky před a po holení, vytrhnutí chloupků depilačním
+                voskem (uši, nos))-->
+              </td>
+              <td>350 Kč</td>
+            </tr>
+            <tr>
+              <td>
+                DĚTSKÉ STŘÍHÁNÍ (nevztahuje se na stínování, takzvaný fade)
+              </td>
+              <td>200 Kč</td>
+            </tr>
+            <tr>
+              <td>PÁNSKÝ STŘIH A ÚPRAVA VOUSŮ</td>
+              <td>500 Kč</td>
+            </tr>
+            <tr>
+              <td>PÁNSKÝ STŘIH A HOLENÍ BŘITVOU</td>
+              <td>600 Kč</td>
+            </tr>
+          </table>
+          <a href="https://k-k.reservio.com/" target="_blank">
+            REZERVOVAT TERMÍN
           </a>
-          <a href="tel:+123456890">
-            <div class="icons-flexbox">
-              <img src="icons/mobile.png" alt="icon-telefon" class="icon" />123
-              456 789
-            </div>
-          </a>
+          <!--DÁMSKÉ KADEŘNICTVÍ-->
+          <h2 class="nadpis-damske-kadernictvi" id="damske-kadernictvi">
+            DÁMSKÉ KADEŘNICTVÍ
+          </h2>
+          <table class="cenik-damske-kadernictvi">
+            <tr>
+              <th>Služba</th>
+              <th>Cena</th>
+            </tr>
+            <tr>
+              <td>STŘIH1</td>
+              <td>300 Kč</td>
+            </tr>
+            <tr>
+              <td>STŘIH3</td>
+              <td>200 Kč</td>
+            </tr>
+            <tr>
+              <td>BARVENÍ VLASŮ</td>
+              <td>450 Kč</td>
+            </tr>
+          </table>
+          <a href="#">ZAVOLEJTE NÁM</a>
+        </section>
+      </main>
+      <footer class="footer" id="kontakt">
+        <div class="footer-leva-cast">
+          <h2 class="nadpis-kontakt">Máte nějaké dotazy? Ozvěte se nám.</h2>
+          <h2 class="nadpis-mensi">BARBER</h2>
+          <div class="kontakt-icons-flex">
+            <a href="#">
+              <div class="icons-flexbox">
+                <img
+                  src="icons/instagram.png"
+                  alt="logo-ig"
+                  class="icon"
+                />@kamil-vala
+              </div>
+            </a>
+            <a href="tel:+123456890">
+              <div class="icons-flexbox">
+                <img
+                  src="icons/mobile.png"
+                  alt="icon-telefon"
+                  class="icon"
+                />123 456 789
+              </div>
+            </a>
+          </div>
+          <h2 class="nadpis-mensi">DÁMSKÉ KADEŘNICTVÍ</h2>
+          <div class="kontakt-icons-flex">
+            <a href="#">
+              <div class="icons-flexbox">
+                <img
+                  src="icons/instagram.png"
+                  alt="logo-ig"
+                  class="icon"
+                />@kaja-valova
+              </div></a
+            >
+            <a href="tel:+123456890">
+              <div class="icons-flexbox">
+                <img
+                  src="icons/mobile.png"
+                  alt="icon-telefon"
+                  class="icon"
+                />123 456 789
+              </div>
+            </a>
+          </div>
+          <div class="oteviraci-doba">
+            <h2 class="nadpis-mensi">Otevírací doba</h2>
+            <p>Po: 9:00-18:00</p>
+            <p>Út: 9:00-18:00</p>
+            <p>St: 9:00-18:00</p>
+            <p>Čt: 9:00-18:00</p>
+            <p>Pá: 9:00-18:00</p>
+          </div>
         </div>
-        <h2 class="nadpis-mensi">DÁMSKÉ KADEŘNICTVÍ</h2>
-        <div class="kontakt-icons-flex">
-          <a href="#">
-            <div class="icons-flexbox">
-              <img
-                src="icons/instagram.png"
-                alt="logo-ig"
-                class="icon"
-              />@kaja-valova
-            </div></a
-          >
-          <a href="tel:+123456890">
-            <div class="icons-flexbox">
-              <img src="icons/mobile.png" alt="icon-telefon" class="icon" />123
-              456 789
-            </div>
-          </a>
+        <div class="footer-prava-cast">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.3343962968748!2d17.829993487498704!3d49.66117525619216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713c0d08caea687%3A0x118291fd8722f00a!2sHranick%C3%A1%2024%2F14%2C%20742%2035%20Odry!5e0!3m2!1scs!2scz!4v1739306928332!5m2!1scs!2scz"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="mapa"
+          ></iframe>
         </div>
-      </div>
-      <div class="footer-prava-cast">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.3343962968748!2d17.829993487498704!3d49.66117525619216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713c0d08caea687%3A0x118291fd8722f00a!2sHranick%C3%A1%2024%2F14%2C%20742%2035%20Odry!5e0!3m2!1scs!2scz!4v1739306928332!5m2!1scs!2scz"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="mapa"
-        ></iframe>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
