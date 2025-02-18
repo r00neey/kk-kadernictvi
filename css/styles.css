@@ -48,7 +48,6 @@
   color: black;
   font-weight: bold;
   transition: color 0.75s ease, text-shadow 1s ease;
-
 }
 
 .header-prava-strana .nav li a:hover{
