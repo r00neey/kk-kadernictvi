@@ -111,21 +111,21 @@
         <h2 class="nadpis-damske-kadernictvi" id="damske-kadernictvi">
           DÁMSKÉ KADEŘNICTVÍ
         </h2>
-        <table>
+        <table class="cenik-damske-kadernictvi">
           <tr>
             <th>Služba</th>
             <th>Cena</th>
           </tr>
           <tr>
-            <td>Střih</td>
+            <td>STŘIH1</td>
             <td>300 Kč</td>
           </tr>
           <tr>
-            <td>Úprava vousů</td>
+            <td>STŘIH3</td>
             <td>200 Kč</td>
           </tr>
           <tr>
-            <td>Střih a úprava vousů</td>
+            <td>BARVENÍ VLASŮ</td>
             <td>450 Kč</td>
           </tr>
         </table>
@@ -133,28 +133,53 @@
       </section>
     </main>
     <footer class="footer" id="kontakt">
-      <h2>Máte nějaké dotazy? Ozvěte se nám.</h2>
-      <div>
-        <h2>BARBER</h2>
-        <a href="#"><img src="" alt="logo-ig" />@kamil-vala</a>
-        <a href="#"><img src="" alt="icon-telefon" />123 456 789</a>
-
-        <h2>DÁMSKÉ KADEŘNICTVÍ</h2>
-        <a href="#"><img src="" alt="logo-ig" />@kaja-valova</a>
-        <a href="tel:+123456890">
-          <img src="" alt="icon-telefon" />123 456 789
-        </a>
+      <div class="footer-leva-cast">
+        <h2 class="nadpis-kontakt">Máte nějaké dotazy? Ozvěte se nám.</h2>
+        <h2 class="nadpis-mensi">BARBER</h2>
+        <div class="kontakt-icons-flex">
+          <a href="#">
+            <div class="icons-flexbox">
+              <img
+                src="icons/instagram.png"
+                alt="logo-ig"
+                class="icon"
+              />@kamil-vala
+            </div>
+          </a>
+          <a href="tel:+123456890">
+            <div class="icons-flexbox">
+              <img src="icons/mobile.png" alt="icon-telefon" class="icon" />123
+              456 789
+            </div>
+          </a>
+        </div>
+        <h2 class="nadpis-mensi">DÁMSKÉ KADEŘNICTVÍ</h2>
+        <div class="kontakt-icons-flex">
+          <a href="#">
+            <div class="icons-flexbox">
+              <img
+                src="icons/instagram.png"
+                alt="logo-ig"
+                class="icon"
+              />@kaja-valova
+            </div></a
+          >
+          <a href="tel:+123456890">
+            <div class="icons-flexbox">
+              <img src="icons/mobile.png" alt="icon-telefon" class="icon" />123
+              456 789
+            </div>
+          </a>
+        </div>
       </div>
-      <div>
-        <h2>KDE NÁS NAJDETE?</h2>
+      <div class="footer-prava-cast">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.3343962968748!2d17.829993487498704!3d49.66117525619216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713c0d08caea687%3A0x118291fd8722f00a!2sHranick%C3%A1%2024%2F14%2C%20742%2035%20Odry!5e0!3m2!1scs!2scz!4v1739306928332!5m2!1scs!2scz"
-          width="100%"
-          height="100%"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="mapa"
         ></iframe>
       </div>
     </footer>

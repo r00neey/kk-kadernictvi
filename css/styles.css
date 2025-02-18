@@ -1,11 +1,6 @@
-* {
-  /*outline: 1px solid red;*/
-}
-
 .container {
   line-height: 1.5;
   margin: 0 4vw;
-  border: 1px solid black;
   font-size: 1.25em;
   scroll-behavior: smooth;
 }
@@ -46,8 +41,9 @@
 
 /*POPIS POD NAVIGACI*/
 
-.popis {
-  border: 2px solid black;
+section,
+.footer {
+  margin: 2em 0;
 }
 
 .popis .popis-text {
@@ -81,18 +77,94 @@
 
 .cenik {
   border: 2px solid black;
+  border-radius: 2em;
+  padding: 1em;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.nadpis-barber {
+.nadpis-barber,
+.nadpis-damske-kadernictvi,
+.nadpis-kontakt {
   font-size: 2em;
   font-weight: bold;
-  text-decoration: underline 1px solid black;
+  text-decoration: underline 1px dotted black;
 }
 
-.cenik .cenik-barber {
+.cenik .cenik-barber,
+.cenik .cenik-damske-kadernictvi {
   width: 100%;
 }
 
-.cenik .cenik-barber tr {
+.cenik .cenik-barber tr th,
+.cenik .cenik-damske-kadernictvi tr th {
+  text-align: left;
+  font-weight: bold;
   border-bottom: 2px solid black;
+}
+
+.cenik .cenik-barber tr th:nth-child(2),
+.cenik .cenik-damske-kadernictvi tr th:nth-child(2) {
+  text-align: center;
+}
+
+.cenik .cenik-barber tr td:first-child,
+.cenik .cenik-damske-kadernictvi tr td:first-child {
+  width: 75%;
+  text-align: left;
+}
+
+.cenik .cenik-barber tr td:nth-child(2),
+.cenik .cenik-damske-kadernictvi tr td:nth-child(2) {
+  width: 25%;
+  text-align: center;
+}
+
+.cenik .cenik-barber tr,
+.cenik .cenik-damske-kadernictvi tr {
+  border-bottom: 1px solid black;
+}
+
+/*KONTAKT*/
+
+.footer {
+  outline: 1px solid red;
+  display: flex;
+}
+
+.footer .footer-leva-cast {
+  flex: 1;
+}
+
+.footer .footer-prava-cast {
+  flex: 1;
+  overflow: hidden;
+}
+
+.nadpis-mensi {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.kontakt-icons-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+.icons-flexbox {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  align-items: center;
 }
