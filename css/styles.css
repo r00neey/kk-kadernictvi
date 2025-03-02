@@ -83,6 +83,7 @@ section,
 
 .popis .popis-text .popis-text-leva-strana {
   flex: 1;
+  font-size: 1.25em;
 }
 
 .popis .popis-text .popis-text-prava-strana {
@@ -90,6 +91,7 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .popis .popis-text .popis-text-prava-strana img {
