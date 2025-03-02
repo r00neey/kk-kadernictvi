@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js" defer></script>
     <!--FONTY-->
   </head>
 
@@ -58,11 +59,22 @@
               </p>
             </div>
             <div class="popis-text-prava-strana">
-              <img
-                src="https://placehold.co/750x400"
-                alt="pansky-strih"
-                class="popisek-img"
-              />
+              <div class="gallery">
+                <img
+                  src="pics/img1.jpeg"
+                  alt="pansky-strih"
+                  class="popisek-img"
+                  onclick="openLightbox(0)"
+                />
+              </div>
+
+              <!-- Lightbox container (skrytý) -->
+              <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">&times;</span>
+                <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+                <div class="prev" onclick="changeImage(-1)">&#10094;</div>
+                <div class="next" onclick="changeImage(1)">&#10095;</div>
+              </div>
             </div>
           </div>
         </section>
