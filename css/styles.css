@@ -378,3 +378,8 @@ section,
     border-radius: 0;
   }
 }
+
+.warning-text{
+  color:red;
+  font-size: 0.75em;
+}

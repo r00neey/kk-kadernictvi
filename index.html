@@ -6,6 +6,7 @@
     <title>K&K Kadeřnictví</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="ikonky/hairdresser.png" type="image/png" />
 
     <!--FONTY-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,10 +23,9 @@
     <div class="bg">
       <header class="header">
         <img
-          src="pics/logo.png"
+          src="./pics/logo.png"
           alt="K&K kadeřnictví logo"
-          class="nav-logo"
-          class="header-leva-strana"
+          class="nav-logo header-leva-strana"
         />
         <nav class="header-prava-strana">
           <ul class="nav">
@@ -61,7 +61,7 @@
             <div class="popis-text-prava-strana">
               <div class="gallery">
                 <img
-                  src="pics/img1.jpeg"
+                  src="./pics/img1.jpeg"
                   alt="pansky-strih"
                   class="popisek-img"
                   onclick="openLightbox(0)"
@@ -126,11 +126,19 @@
               <td>PÁNSKÝ STŘIH A HOLENÍ BŘITVOU</td>
               <td>600 Kč</td>
             </tr>
+            <tr>
+              <td>STŘÍHÁNÍ KRÁTKÝCH VLASŮ NA KRÁTKÉ</td>
+              <td>500 Kč</td>
+            </tr>
           </table>
           <div class="button-align">
             <a href="https://k-k.reservio.com/" target="_blank">
               REZERVOVAT TERMÍN
             </a>
+            <p class="warning-text">
+              *rezervace přes aplikaci budou dostupné až od 1.4., do té doby se
+              prosím objednávejte přes telefon: 735 851 067
+            </p>
           </div>
           <!--DÁMSKÉ KADEŘNICTVÍ-->
           <h2 class="nadpis-damske-kadernictvi" id="damske-kadernictvi">
@@ -142,20 +150,36 @@
               <th>Cena</th>
             </tr>
             <tr>
-              <td>STŘIH1</td>
-              <td>300 Kč</td>
+              <td>STŘIH</td>
+              <td>300 - 600 Kč</td>
             </tr>
             <tr>
-              <td>STŘIH3</td>
-              <td>200 Kč</td>
+              <td>BARVA</td>
+              <td>800 - 1400 Kč</td>
             </tr>
             <tr>
               <td>BARVENÍ VLASŮ</td>
-              <td>450 Kč</td>
+              <td>1000 - 1600 Kč</td>
+            </tr>
+            <tr>
+              <td>BALEAGE</td>
+              <td>1300 - 2000 Kč</td>
+            </tr>
+            <tr>
+              <td>PŘELIV</td>
+              <td>600 - 1200 Kč</td>
+            </tr>
+            <tr>
+              <td>VÝŽIVA</td>
+              <td>100 - 300 Kč</td>
+            </tr>
+            <tr>
+              <td>MASÁŽ</td>
+              <td>80 Kč</td>
             </tr>
           </table>
           <div class="button-align">
-            <a href="tel:+420123456789">ZAVOLEJTE NÁM</a>
+            <a href="tel:+420702178859">ZAVOLEJTE NÁM</a>
           </div>
         </section>
       </main>
@@ -166,25 +190,28 @@
             <div class="kontakt-barber">
               <div class="nadpis-icon-flex">
                 <h2 class="nadpis-mensi">BARBER</h2>
-                <img src="icons/barber-sign.png" alt="" width="50px" />
+                <img src="ikonky/barber-sign.png" alt="" width="50px" />
               </div>
               <div class="kontakt-icons-flex">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.instagram.com/kamilvala97/"
+                  target="_blank"
+                >
                   <div class="icons-flexbox">
                     <img
-                      src="icons/instagram.png"
+                      src="ikonky/instagram.png"
                       alt="logo-ig"
                       class="icon"
                     />@kamil-vala
                   </div>
                 </a>
-                <a href="tel:+123456890">
+                <a href="tel:+420735851067">
                   <div class="icons-flexbox">
                     <img
-                      src="icons/mobile.png"
+                      src="ikonky/mobile.png"
                       alt="icon-telefon"
                       class="icon"
-                    />+420 123 456 789
+                    />+420 735 851 067
                   </div>
                 </a>
               </div>
@@ -192,25 +219,25 @@
             <div class="kontakt-damske-kadernictvi">
               <div class="nadpis-icon-flex">
                 <h2 class="nadpis-mensi">DÁMSKÉ KADEŘNICTVÍ</h2>
-                <img src="icons/hairdresser.png" alt="" width="50px" />
+                <img src="ikonky/hairdresser.png" alt="" width="50px" />
               </div>
               <div class="kontakt-icons-flex">
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/kaji.nna/" target="_blank">
                   <div class="icons-flexbox">
                     <img
-                      src="icons/instagram.png"
+                      src="ikonky/instagram.png"
                       alt="logo-ig"
                       class="icon"
                     />@kaja-valova
                   </div></a
                 >
-                <a href="tel:+123456890">
+                <a href="tel:+420702178859">
                   <div class="icons-flexbox">
                     <img
-                      src="icons/mobile.png"
+                      src="ikonky/mobile.png"
                       alt="icon-telefon"
                       class="icon"
-                    />+420 123 456 789
+                    />+420 702 178 859
                   </div>
                 </a>
               </div>
@@ -219,7 +246,7 @@
               <div class="oteviraci-doba">
                 <div class="nadpis-icon-flex">
                   <h2 class="nadpis-mensi">OTEVÍRACÍ DOBA</h2>
-                  <img src="icons/clock.png" alt="" width="40px" />
+                  <img src="ikonky/hairdresser.png" alt="" width="40px" />
                 </div>
                 <div class="oteviraci-doba-hodiny">
                   <p><span class="bold">Po</span>: 9:00 - 18:00</p>
