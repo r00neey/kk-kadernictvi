@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="shortcut icon" href="ikonky/hairdresser.png" type="image/png" />
 
+    <!--VERIFIKACE GOOGLE-->
+    <meta
+      name="google-site-verification"
+      content="oI_TPAoW4X-Gw0_mJ-xSWDJGjyH79Ol2-ck5q1iZWKI"
+    />
     <!--FONTY-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +21,38 @@
       rel="stylesheet"
     />
     <script src="main.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "K&K Kadeřnictví",
+        "image": "https://kk-kadernictvi.cz/pics/logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hranická 24/14",
+          "addressLocality": "Odry",
+          "addressCountry": "CZ",
+          "postalCode": "742 35"
+        },
+        "telephone": "+420735851067",
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "url": "https://kk-kadernictvi.cz"
+      }
+    </script>
+
     <!--FONTY-->
+
+    <!--SEO-->
+    <meta
+      name="description"
+      content="K&K Kadeřnictví - profesionální pánské a dámské střihy v příjemném prostředí. Rezervujte si termín ještě dnes!"
+    />
+    <meta
+      name="keywords"
+      content="kadeřnictví, barber, dámské střihy, pánské střihy, holičství, úprava vousů, Odry"
+    />
+    <meta name="author" content="Kamil a Kája" />
+    <meta name="robots" content="index, follow" />
   </head>
 
   <body class="container">
@@ -26,6 +62,7 @@
           src="./pics/logo.png"
           alt="K&K kadeřnictví logo"
           class="nav-logo header-leva-strana"
+          loading="lazy"
         />
         <nav class="header-prava-strana">
           <ul class="nav">
@@ -65,13 +102,19 @@
                   alt="pansky-strih"
                   class="popisek-img"
                   onclick="openLightbox(0)"
+                  loading="lazy"
                 />
               </div>
 
               <!-- Lightbox container (skrytý) -->
               <div id="lightbox" class="lightbox">
                 <span class="close" onclick="closeLightbox()">&times;</span>
-                <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+                <img
+                  id="lightbox-img"
+                  class="lightbox-img"
+                  src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                  alt=""
+                />
                 <div class="prev" onclick="changeImage(-1)">&#10094;</div>
                 <div class="next" onclick="changeImage(1)">&#10095;</div>
               </div>
@@ -190,11 +233,16 @@
             <div class="kontakt-barber">
               <div class="nadpis-icon-flex">
                 <h2 class="nadpis-mensi">BARBER</h2>
-                <img src="ikonky/barber-sign.png" alt="" width="50px" />
+                <img
+                  src="ikonky/barber-sign.png"
+                  alt=""
+                  width="50"
+                  loading="lazy"
+                />
               </div>
               <div class="kontakt-icons-flex">
                 <a
-                  href="https://www.instagram.com/kamilvala97/"
+                  href="https://www.instagram.com/kk_barberandhairstudio/?igsh=MXZmYTJxZmQ5Njd0OA%3D%3D"
                   target="_blank"
                 >
                   <div class="icons-flexbox">
@@ -202,7 +250,8 @@
                       src="ikonky/instagram.png"
                       alt="logo-ig"
                       class="icon"
-                    />@kamil-vala
+                      loading="lazy"
+                    />Barber
                   </div>
                 </a>
                 <a href="tel:+420735851067">
@@ -211,6 +260,7 @@
                       src="ikonky/mobile.png"
                       alt="icon-telefon"
                       class="icon"
+                      loading="lazy"
                     />+420 735 851 067
                   </div>
                 </a>
@@ -219,16 +269,25 @@
             <div class="kontakt-damske-kadernictvi">
               <div class="nadpis-icon-flex">
                 <h2 class="nadpis-mensi">DÁMSKÉ KADEŘNICTVÍ</h2>
-                <img src="ikonky/hairdresser.png" alt="" width="50px" />
+                <img
+                  src="ikonky/hairdresser.png"
+                  alt=""
+                  width="50"
+                  loading="lazy"
+                />
               </div>
               <div class="kontakt-icons-flex">
-                <a href="https://www.instagram.com/kaji.nna/" target="_blank">
+                <a
+                  href="https://www.instagram.com/kk_barberandhairstudio/?igsh=MXZmYTJxZmQ5Njd0OA%3D%3D"
+                  target="_blank"
+                >
                   <div class="icons-flexbox">
                     <img
                       src="ikonky/instagram.png"
                       alt="logo-ig"
                       class="icon"
-                    />@kaja-valova
+                      loading="lazy"
+                    />Dámské kadeřnictví
                   </div></a
                 >
                 <a href="tel:+420702178859">
@@ -237,6 +296,7 @@
                       src="ikonky/mobile.png"
                       alt="icon-telefon"
                       class="icon"
+                      loading="lazy"
                     />+420 702 178 859
                   </div>
                 </a>
@@ -246,7 +306,12 @@
               <div class="oteviraci-doba">
                 <div class="nadpis-icon-flex">
                   <h2 class="nadpis-mensi">OTEVÍRACÍ DOBA</h2>
-                  <img src="ikonky/hairdresser.png" alt="" width="40px" />
+                  <img
+                    src="ikonky/hairdresser.png"
+                    alt=""
+                    width="40"
+                    loading="lazy"
+                  />
                 </div>
                 <div class="oteviraci-doba-hodiny">
                   <p><span class="bold">Po</span>: 9:00 - 18:00</p>
