@@ -48,7 +48,7 @@
   justify-content: center;
   align-items: center;
   gap: 5em;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header-prava-strana .nav li a {
@@ -102,13 +102,13 @@ section,
 .nadpis-h1 {
   font-size: 2.5em;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .nadpis-h2 {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*CENIK*/
@@ -131,7 +131,7 @@ section,
 .nadpis-kontakt {
   font-size: 2em;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
   padding-bottom: 0.5em;
 }
 
@@ -199,13 +199,12 @@ section,
 
 .footer .footer-prava-cast {
   flex: 1.5;
-  overflow: hidden;
 }
 
 .nadpis-mensi {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .mapa {
@@ -376,6 +375,7 @@ section,
   .bg {
     margin: 0;
     border-radius: 0;
+    overflow-x: hidden;
   }
 }
 
